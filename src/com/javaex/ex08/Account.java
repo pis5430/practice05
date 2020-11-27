@@ -6,7 +6,7 @@ public class Account {
     private int balance;
     
     //생성자 작성
-    
+    gggggg
     //필요한 메소드 작성
 
 }
