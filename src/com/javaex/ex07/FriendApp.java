@@ -30,11 +30,18 @@ public class FriendApp {
 
             // Friend 인스턴스 생성하여 데이터 넣기 
         	
+        	
+        	/* 기본생산자
+        	 
         	Friend people = new Friend(); 
         	
         	people.setName(name);
         	people.setHp(hp);
         	people.setSchool(school);
+        	*/
+        	
+        	Friend people = new Friend(name, hp, school);
+        	
 
             // 인스턴스 주소를 배열에 대입  -->friendArray[0] = people; --> people주소
         	

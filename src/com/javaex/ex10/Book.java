@@ -66,6 +66,11 @@ public class Book {
 		}
     	
     }
+
+	@Override
+	public String toString() {
+		return "Book [bookNo=" + bookNo + ", title=" + title + ", author=" + author + ", stateCode=" + stateCode + "]";
+	}
     
     
     
