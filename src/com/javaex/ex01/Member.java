@@ -2,7 +2,6 @@ package com.javaex.ex01;
 
 public class Member {
 	
-	//테스트
 	
 	//필드
 	
