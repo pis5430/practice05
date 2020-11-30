@@ -16,7 +16,7 @@ public class Book {
     	this.bookNo = bookNo;
     	this.title = title;
     	this.author = author;
-    	stateCode = 1;
+    	stateCode = 1; //생성자가 실행될때마다 1로 초기화 (대여가능)
     }
     
     // 메소드 게터, 세터
